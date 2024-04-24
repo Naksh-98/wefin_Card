@@ -48,7 +48,7 @@ function App() {
                         <div className='container_description_2' >
                             <div className='container_fees'>
                                 <h2>1st Year Fees <i className="bi bi-info-circle-fill"></i></h2>
-                                <p>₹: {card.joining_fee_amount__c}</p>
+                                <p>₹ {card.joining_fee_amount__c}</p>
                             </div>
                             <div className='container_perks'>
                                 <h2>Best Suitable for <i className="bi bi-info-circle-fill"></i></h2>
