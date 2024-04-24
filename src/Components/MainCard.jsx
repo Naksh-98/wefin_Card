@@ -31,14 +31,14 @@ function App() {
                 <h2>{cardData.length} Credit Cards for you</h2>
                 <div>
                     <Button variant="primary">Compare Credit Cards <span>{0}</span></Button>
-                    <Button variant="primary" style={{ backgroundColor: 'white', color: 'black', border: 'none'}}>Filter <i className="bi bi-sliders2"></i></Button>
+                    <Button variant="primary" style={{ backgroundColor: 'white', color: 'black', border: 'none' }}>Filter <i className="bi bi-sliders2"></i></Button>
                 </div>
             </div>
 
             {cardData.map((card, index) => (
                 <div key={index} className='container_card'>
                     <div className='card_img'>
-                        <img style={{ height: '150px', margin: '10px' }} src={card.card_image__c} alt={card.card_name__c} />
+                        <img style={{ height: '120px', margin: '10px' }} src={card.card_image__c} alt={card.card_name__c} />
                     </div>
                     <div className='container_main'>
                         <div className='container_description' >
@@ -67,18 +67,18 @@ function App() {
                             </div>
                         </div>
                         <div className='container_Buttons'>
-                            <Button style={{ backgroundColor: 'white', color: 'black', border: 'none', display: 'flex', alignItems: 'center', marginRight: '10px' }}>
-                                <i className="bi bi-plus-circle" style={{ color: 'blue', fontSize: '25px' }}> </i>  <span style={{ marginLeft: '10px' }}>Know More</span>
+                            <Button style={{ backgroundColor: 'transparent', color: 'black', border: 'none', display: 'flex', alignItems: 'center', marginRight: '10px', height: '30px' }}>
+                                <i className="bi bi-plus-circle" style={{ color: 'blue', fontSize: '22px' }}> </i>  <span style={{ marginLeft: '10px' }}>Know More</span>
                             </Button>
 
-                            <Button variant="primary">Apply Now</Button>
+                            <Button variant="primary" style={{ height: '30px' }}>Apply Now</Button>
                         </div>
                     </div>
-                    <div style={{ marginRight: '10px', padding: '10px 0px' }}>
+                    {/* <div style={{ marginRight: '10px', padding: '10px 0px' }}>
                         <Button style={{ backgroundColor: 'white', color: 'rgb(0, 0, 255)', border: 'none', display: 'flex', alignItems: 'center', marginRight: '10px' }}>
                             <i className="bi bi-plus-circle" style={{ color: 'blue', fontSize: '25px' }}> </i>  <span style={{ marginLeft: '10px' }}>Compare</span>
                         </Button>
-                    </div>
+                    </div> */}
                 </div>
             ))}
         </section>

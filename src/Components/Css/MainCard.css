@@ -3,59 +3,48 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 10px 2px;
+    justify-content: center;
+    width: 100%;
+    margin: 1px 2px;
     padding: 20px 10px;
-    
-  
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     display: 'flex';
     justify-content: 'space-between';
     align-items: 'center';
-    margin: 2px 150px; 
-} 
-.header_button{
-    background-color:rgb(60, 60, 255);
-    padding: 0px 10px;
-    border-radius: 5px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
+    margin: 2px 120px;
 }
 
 
-
-
 .container_card {
-    margin: 20px 150px;
+    margin: 20px 120px;
     border-bottom: 2px solid rgb(240, 240, 240);
     display: flex;
 }
 
-.container_main {
-    display: flex;
-    flex-direction: column;
-    min-height: 200px;
-}
+/* .container_main {
+    
+    
+} */
 
 .card_img {
     padding: 25px 5px;
     background: radial-gradient(200px, rgb(233, 233, 233), rgb(240, 240, 240), rgb(225, 225, 225));
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container_description {
     margin: 0px 10px;
-   
     padding-bottom: 10px;
     border-bottom: 2px solid rgb(240, 240, 240);
-    width: 70%; 
+    width: 70%;
 }
 
 .container_description_2 {
@@ -63,54 +52,58 @@
     flex-direction: row;
     margin: 10px 10px;
     padding: 10px 0px;
-    gap: 20px;
-    height: 100px;
+    gap: 10px;
+    height: 80px;
 }
 
 .container_description_2 h2 {
     color: rgb(175, 175, 175);
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 11px;
+    font-weight: 300;
 }
 
 .container_fees {
     display: flex;
+    width: 110px;
     flex-direction: column;
     gap: 10px;
-
 }
+
 .container_icon {
     display: flex;
     width: 400px;
     margin: 2px 0px;
     display: flex;
     flex-wrap: wrap;
-    height: 200px;  
 }
+
 .container_perks {
     display: flex;
     flex-direction: column;
     margin: 0px 10px;
     gap: 5px;
+    
 }
+
 .suit {
     display: flex;
     height: 10x;
     width: auto;
     margin: 0px 5px;
-    padding: 2px 0px ;
+    padding: 2px 0px;
 }
-.container_criteria {
 
+.container_criteria {
     display: flex;
-    height: 100px;
     flex-direction: column;
     gap: 10px;
 }
-.container_Buttons{
-    margin: 5px 10px;
-    padding-bottom: 10px;
-    display: flex; 
+
+.container_Buttons {   
+    margin-left:10px ;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 0px 10px ;
+    display: flex;
     align-items: center;
 }
-

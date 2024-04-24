@@ -12,10 +12,10 @@ const NavMenu = () => {
         <Container fluid>
           <Navbar.Brand href="#"> <Image
             src="https://wefin.in/assets/images/wefin-logo.svg"
-            style={{ height: '100px', width: '100px',position:'relative',left:'110px' }}
+            style={{ height: '100px', width: '100px',position:'relative',left:'60px' }}
           /></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
-          <Button variant="outline-custom"><i className="bi bi-person-circle" style={{ marginRight: '10px' }}></i>Login</Button>
+          <Button variant="outline-custom" style={{position:'relative',right:'60px'}}><i className="bi bi-person-circle" style={{marginRight: '10px' }}></i>Login</Button>
         </Container>
       </Navbar>
     </div>
